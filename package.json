@@ -14,5 +14,8 @@
     "discord-rpc": "^4.0.1",
     "dotenv": "^16.0.2"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }

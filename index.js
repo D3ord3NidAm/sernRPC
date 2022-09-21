@@ -1,9 +1,8 @@
 'use strict';
 import 'dotenv/config';
 import { Client } from 'discord-rpc';
-const { clientId } = process.env;
+const { clientId, startTimestamp } = process.env;
 const rpc = new Client({ transport: 'ipc' });
-const startTimestamp = new Date();
 
 async function setActivity() {
     if (!rpc) {
@@ -13,7 +12,7 @@ async function setActivity() {
     rpc.setActivity({
         details: `sern handler`,
         state: 'INSTALL CLI TO START',
-        startTimestamp,
+        startTimestamp: Number(startTimestamp),
         largeImageKey: 'sern',
         largeImageText: 'sern',
         smallImageKey: 'rpc-verify',
