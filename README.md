@@ -36,7 +36,7 @@ This package requires the Discord Client to be open and logged into.
 **CUSTOMIZE**
 Now you can customize the buttons to your liking but you can only have a max of 2!
 
-**START**
+# START
 Time to start the application. 
     - Rename `.env.example` to `.env` 
     - Start the app with `npm run start` (uses node) or `npm run dev` (uses nodemon). 
