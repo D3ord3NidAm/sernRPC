@@ -1,0 +1,18 @@
+{
+  "name": "sernrpc",
+  "version": "1.0.0",
+  "description": "Simple Discord-RPC for sern lovers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Peter Parker#8280",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.0.2"
+  },
+  "type": "module"
+}
