@@ -17,9 +17,7 @@ This package requires the Discord Client to be open and logged into.
     - Go to `Rich Presence` then `Art Assets` 
         - Click `Add Images` near the bottom of the page. 
         - Upload the images that I provided in the assets folder of the repo. 
-
-**_NAMES AND CAPITALIZATION MATTER HERE_** 
-    - Remember the name and capitalization you uploaded the images as. 
+            - Remember the name and capitalization you uploaded the images as. 
         - After uploading the images, refresh the page and make sure they successfully uploaded. 
             - If they disappear, just refresh the page until they come back. 
             - They have to be there to see them in the next step. 
@@ -33,11 +31,11 @@ This package requires the Discord Client to be open and logged into.
             - These properties should match your index as well. 
             - The text properties should also match (make sure there are no special characters!)
 
-**CUSTOMIZE**
+# CUSTOMIZE
 Now you can customize the buttons to your liking but you can only have a max of 2!
 
 # START
-Time to start the application. 
+- Time to start the application. 
     - Rename `.env.example` to `.env` 
     - Start the app with `npm run start` (uses node) or `npm run dev` (uses nodemon). 
     - That's it! You now have a custom presence!
