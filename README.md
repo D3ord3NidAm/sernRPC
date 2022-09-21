@@ -40,6 +40,11 @@ Now you can customize the buttons to your liking but you can only have a max of 
 # START
 
 - Time to start the application.
+
   - Rename `.env.example` to `.env`
   - Start the app with `npm run start` (uses node) or `npm run dev` (uses nodemon).
   - That's it! You now have a custom presence!
+
+- I have created a simple .bat file in assets directory.
+  - I placed it on my desktop and edited the file path to find my index file.
+  - Changed default terminal to Windows Terminal and edited settings to minimze to taskbar so it's hidden.
