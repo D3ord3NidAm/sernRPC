@@ -1,2 +1,2 @@
-cd ../Documents/sernRPC
+cd ../
 nodemon index.js
