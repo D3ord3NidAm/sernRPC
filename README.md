@@ -1,4 +1,4 @@
-# Discord RPC for the Sern Community
+# Discord RPC for the sern Community
 
 A simple rpc package to advertise the sern handler on profiles.
 
