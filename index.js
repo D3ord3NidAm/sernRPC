@@ -20,8 +20,8 @@ async function setActivity() {
         instance: false,
         buttons: [
             {
-                label: `sern handler (v 1.0.0) 🔗`,
-                url: `https://sern-handler.js.org/`
+                label: `sern handler (v 1.2.1) 🔗`,
+                url: `https://sern.dev/`
             },
             {
                 label: `Discord Server 🔗`,
