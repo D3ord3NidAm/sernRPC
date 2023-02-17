@@ -20,7 +20,7 @@ async function setActivity() {
 		instance: false,
 		buttons: [
 			{
-				label: `sern handler (v 1.2.1) 🔗`,
+				label: `sern handler (v 2.5.1) 🔗`,
 				url: `https://sern.dev/`,
 			},
 			{
